@@ -1,0 +1,109 @@
+.header-about {
+  height: 52rem;
+  background-color: var(--Midnight-Green);
+  background-image: url(/image/about-header.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  /* background-image: url(/image/Group\ 7.png); */
+}
+header__title-text-about {
+  color: #fff;
+  span {
+    color: var(--Light-Coral);
+  }
+}
+h1 {
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.header__title-description-about {
+  width: 65rem;
+  font-size: 1.8rem;
+  color: #fff;
+  height: 20rem;
+  padding-top: 5rem;
+  span {
+    display: inline-block;
+    background-color: var(--Light-Coral);
+    height: 0.4rem;
+    width: 5rem;
+    position: absolute;
+    top: 25rem;
+  }
+}
+.main-about__meet {
+  height: 100rem;
+  background-color: var(--Deep-Jungle-Green);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/image/about-persone/directors-rect.svg"),
+    url("/image/about-persone/Group\ 8.svg");
+
+  background-repeat: no-repeat;
+  background-position: right bottom, left top;
+}
+.main-about__title {
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+.mian-about__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.main-about__group-persone {
+  width: 35rem;
+  height: 28rem;
+  background-color: var(--Sacramento-State-Green);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  gap: 1rem;
+  margin-top: 5rem;
+  /* gap: 1rem; */
+  h3 {
+    color: var(--Rapture-Blue);
+  }
+  span {
+    /* margin-top: -5rem; */
+    color: #fff;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.8;
+  }
+  img {
+    margin-bottom: 2.5rem;
+  }
+}
+.main-about__title-span {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.main-about__clients {
+  height: 44rem;
+  background-color: var(--Sacramento-State-Green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  h2 {
+    color: #fff;
+  }
+  background-image: url("/image/about-persone/clients-circle.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.mian-about__clients-img {
+  height: 5rem;
+  width: 110rem;
+}

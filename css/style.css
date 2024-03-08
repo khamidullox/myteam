@@ -1,0 +1,46 @@
+:root {
+  --Midnight-Green: #014e56;
+  --Light-Coral: #f67e7e;
+  --Rapture-Blue: #79c8c7;
+  --Police-Blue: #2c6269;
+  --Deep-Jungle-Green: #004047;
+  --Sacramento-State-Green: #012f34;
+  --Dark-Green: #002529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  object-fit: cover;
+  display: flex;
+}
+body {
+  height: 100%;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+.container {
+  width: 100%;
+  max-width: 170.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15.4rem;
+  padding-right: 15.4rem;
+}

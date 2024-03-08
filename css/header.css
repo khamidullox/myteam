@@ -1,0 +1,71 @@
+.header {
+  height: 70rem;
+  background-color: var(--Midnight-Green);
+  background-image: url(/image/Group\ 8.png), url(/image/Group\ 7.svg);
+  background-repeat: no-repeat;
+  background-position: left, bottom right 15%;
+  /* background-image: url(/image/Group\ 7.png); */
+}
+.header__start {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-bottom: 5rem; */
+  a {
+    color: #fff;
+  }
+  padding-bottom: 13rem;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+.header__nav-link {
+  padding-right: 1rem;
+}
+
+.header__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+}
+
+.header__title-text {
+  font-size: 10rem;
+  line-height: 10rem;
+  color: #fff;
+  span {
+    color: var(--Light-Coral);
+  }
+}
+.header__title-description {
+  width: 65rem;
+  font-size: 1.8rem;
+  color: #fff;
+  height: 20rem;
+  padding-top: 5rem;
+  span {
+    display: inline-block;
+    background-color: var(--Rapture-Blue);
+    height: 0.4rem;
+    width: 5rem;
+    position: absolute;
+    top: 30rem;
+  }
+}
+.header__contact {
+  height: 15rem;
+  background-color: var(--Midnight-Green);
+}
+.header__nav-link:hover {
+  color: var(--Light-Coral);
+}
+.header__contact-link:hover {
+  background-color: #fff;
+  color: black;
+}
