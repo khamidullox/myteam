@@ -111,8 +111,8 @@ h1 {
   background-image: url("/image/about-persone/Group\ 13\ \(1\).svg");
   background-repeat: no-repeat;
   padding-bottom: 6rem;
+  cursor: pointer;
 }
 .main-about__group-img:hover {
   background-image: url("/image/about-persone/Group\ 13\ \(2\).svg");
 }
-
