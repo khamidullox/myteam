@@ -107,3 +107,12 @@ h1 {
   height: 5rem;
   width: 110rem;
 }
+.main-about__group-img {
+  background-image: url("/image/about-persone/Group\ 13\ \(1\).svg");
+  background-repeat: no-repeat;
+  padding-bottom: 6rem;
+}
+.main-about__group-img:hover {
+  background-image: url("/image/about-persone/Group\ 13\ \(2\).svg");
+}
+

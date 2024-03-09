@@ -16,11 +16,11 @@ textarea {
   opacity: 0.6;
 
   &:hover {
-    border-bottom: 2px solid $WHITE;
+    border-bottom: 2px solid #fff;
     opacity: 1;
   }
 }
-::placeholder {
+input::placeholder {
   color: #fff;
   opacity: 0.7;
 }
